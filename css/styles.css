@@ -1,0 +1,30 @@
+/* Custom styles for the dark navbar */
+.navbar-dark {
+    background-color: #343a40;
+}
+
+/* Custom styles for the page content */
+.page-content {
+    min-height: calc(100vh - 122px); /* Adjust the value to account for navbar and footer heights */
+}
+  /* Custom styles for the fake footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    bottom: 0;
+    text-align: center;
+}
+  /* Custom styles for carousel images */
+.carousel-item img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+  /* Custom styles for the loading animation */
+.loading-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
